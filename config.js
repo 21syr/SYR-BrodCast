@@ -1,17 +1,17 @@
 module.exports = {
     bot: {
         tokens: [
-          "YOUR_BOT_TOKEN_HERE",              // Main bot token - Replace with your actual token
-        //  "YOUR_SECOND_BOT_TOKEN_HERE",      // 2 bot token - Uncomment and replace to use
-        //  "YOUR_THIRD_BOT_TOKEN_HERE",       // 3 bot token - Uncomment and replace to use
-        //  "YOUR_FOURTH_BOT_TOKEN_HERE",      // 4 bot token - Uncomment and replace to use
-        //  "YOUR_FIFTH_BOT_TOKEN_HERE",       // 5 bot token - Uncomment and replace to use
+        "YOUR_BOT_TOKEN_HERE",              // Main bot token - Replace with your actual token
+        "YOUR_SECOND_BOT_TOKEN_HERE_2",      // 2 bot token - Uncomment and replace to use
+        "YOUR_THIRD_BOT_TOKEN_HERE_3",       // 3 bot token - Uncomment and replace to use
+        "YOUR_FOURTH_BOT_TOKEN_HERE_4",      // 4 bot token - Uncomment and replace to use
+        "YOUR_FIFTH_BOT_TOKEN_HERE_5",       // 5 bot token - Uncomment and replace to use
         ].filter(Boolean),
 
         defaultLanguage: 'ar', // ar | en لغة البوت
         
         activity: {
-            name: 'Wick Studio', // رسالة حالة البوت
+            name: 'Dev By hl_2', // رسالة حالة البوت
             type: 'WATCHING', // PLAYING, STREAMING, LISTENING, WATCHING, COMPETING
             status: 'dnd' // online, idle, dnd, invisible
         }
